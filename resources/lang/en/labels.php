@@ -33,6 +33,9 @@ return [
 
     'backend' => [
         'profile_updated' => 'Your profile has been updated.',
+        'games' => [
+            'management' => 'Games Management'
+        ],
         'access'          => [
             'roles' => [
                 'create'     => 'Create Role',

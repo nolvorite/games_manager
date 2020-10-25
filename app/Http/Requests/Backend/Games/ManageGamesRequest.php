@@ -5,7 +5,7 @@ namespace App\Http\Requests\Backend\Games;
 use App\Http\Requests\Request;
 
 /**
- * Class ManageBlogsRequest.
+ * Class ManageGamesRequest.
  */
 class ManageGamesRequest extends Request
 {
@@ -16,7 +16,7 @@ class ManageGamesRequest extends Request
      */
     public function authorize()
     {
-        return access()->allow('view-blog');
+        return access()->allow('view-games');
     }
 
     /**

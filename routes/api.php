@@ -41,6 +41,9 @@ Route::group(['namespace' => 'Api\V1', 'prefix' => 'v1', 'as' => 'v1.'], functio
         Route::resource('pages', 'PagesController', ['except' => ['create', 'edit']]);
 
         // Faqs
+        Route::resource('games', 'GamesController', ['except' => ['create', 'edit']]);
+
+        // Faqs
         Route::resource('faqs', 'FaqsController', ['except' => ['create', 'edit']]);
 
         // Blog Categories

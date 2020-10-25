@@ -18,6 +18,9 @@ return [
     'blogs' => [
         'table' => 'blogs',
     ],
+    'games' => [
+        'table' => 'w_games',
+    ],
     'faqs' => [
         'table' => 'faqs',
     ],
